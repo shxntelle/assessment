@@ -1,0 +1,58 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", san-serif;
+    color: #777;
+}
+.bgimg-1, .bgimg-2, .bgimg-3{
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bgimg-1 {
+    background-image: url("dark-mocha-air-jordan-1-555088-105-7.jpg");
+    min-height: 100%;
+}
+.bgimg-2 {
+    background-image: url("lead-air-jordan-3-se-denim-fire-red-cz6431-100-release-date-4-e1595953594341.jpg");
+    min-height: 575px;
+}
+.bgimg-3 {
+    background-image: url("ca7ff2e8-f98c46bf-1c43-41b6-9f3d-84969134ba29.png");
+    min-height: 575px;
+}
+
+.caption {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
